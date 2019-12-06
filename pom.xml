@@ -36,7 +36,7 @@
                 </descriptorRefs>
                 <archive>
                     <manifest>
-                        <mainClass>Main</mainClass>
+                        <mainClass>HelloWorld</mainClass>
                     </manifest>
                 </archive>
             </configuration>
@@ -50,7 +50,7 @@
         <appName>app</appName>
         <processTypes>
             <!-- Tell Heroku how to launch your application -->
-        <web>java $JAVA_OPTS -cp target/classes:target/dependency/* HelloWord</web>
+        <web>java $JAVA_OPTS -cp target/classes:target/dependency/* HelloWorld</web>
         </processTypes>
     </configuration>
 </plugin>
